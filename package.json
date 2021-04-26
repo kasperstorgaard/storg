@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "5.0.2",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "storg",
+  "version": "0.1.0",
+  "description": "A Proof of Concept repository for a family private blog",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -11,12 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "git://github.com/kasperstorgaard/storg.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Kasper Storgaard",
+    "email": "kasper.storgaard@gmail.com"
   },
   "license": "MIT",
   "bugs": {
@@ -27,9 +26,9 @@
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
-    "luxon": "^1.26.0",
-    "markdown-it": "^12.0.4",
-    "markdown-it-anchor": "^7.1.0"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0"
+  },
+  "dependencies": {
+    "date-fns": "^2.21.1"
   }
 }
